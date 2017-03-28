@@ -1,0 +1,175 @@
+body {
+  background: #f3f5f7;
+}
+.warp {
+  min-width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+header {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+}
+header .header {
+  height: 40px;
+  background: #c51c2a;
+  position: relative;
+}
+header .header a {
+  display: inline-block;
+}
+header .header .logo {
+  width: 55px;
+  height: 20px;
+  background-position: 0 -110px;
+  position: absolute;
+  top: 10px;
+  left: 6px;
+}
+header .header form {
+  margin-left: 70px;
+  padding-right: 50px;
+  position: relative;
+}
+header .header form input {
+  height: 30px;
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+header .header form .search {
+  width: 19px;
+  height: 19px;
+  background-position: -60px -110px;
+  position: absolute;
+  left: 7px;
+  top: 11px;
+  cursor: pointer;
+}
+header .header .login {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  padding: 0 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+header .header .login a {
+  color: #fff;
+}
+main {
+  padding-top: 40px;
+}
+main .left {
+  min-width: 76px;
+  width: 76px;
+  position: fixed;
+  left: 0;
+  top: 40px;
+}
+main .left ul li {
+  width: 76px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  border-bottom: 1px solid #f3f5f7;
+  border-right: 1px solid #f3f5f7;
+  background: #fff;
+}
+main .right {
+  margin-left: 76px;
+}
+main .right .banner {
+  width: 100%;
+}
+main .right .banner img {
+  width: 100%;
+}
+main .right .main1 {
+  padding: 19px 7px 0 7px;
+}
+main .right .main1 h4 {
+  height: 12px;
+  line-height: 12px;
+  font-size: 12px;
+}
+main .right .main1 h4 a {
+  float: right;
+  display: block;
+  height: 12px;
+  font-weight: normal;
+  color: #848689;
+}
+main .right .main1 h4 a i {
+  height: 12px;
+  float: left;
+  padding: 0 3px;
+}
+main .right .main1 h4 a i img {
+  height: 100%;
+}
+main .right .main1 ul {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 7px 10px 0 10px;
+  margin-top: 9px;
+}
+main .right .main1 ul li {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+main .right .main1 ul li a {
+  display: block;
+}
+main .right .main1 ul li a img {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+}
+main .right .main1 ul li a span {
+  height: 31px;
+  font-size: 16px;
+  line-height: 31px;
+}
+@media screen and (max-width: 540px) {
+  main .right .main1 ul li a img {
+    width: 50px;
+    height: 50px;
+  }
+  main .right .main1 ul li a span {
+    height: 28px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 414px) {
+  main .right .main1 ul li a img {
+    width: 45px;
+    height: 45px;
+  }
+  main .right .main1 ul li a span {
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 375px) {
+  main .right .main1 ul li a img {
+    width: 40px;
+    height: 40px;
+  }
+  main .right .main1 ul li a span {
+    height: 20px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
